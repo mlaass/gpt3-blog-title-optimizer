@@ -12,7 +12,7 @@ WITH
     type = "story"
     AND score >= 10
     AND url IS NOT NULL
-    AND timestamp BETWEEN "2020-08-01" AND "2022-08-01"
+    AND timestamp BETWEEN "2020-07-01" AND "2023-07-01"
     AND NOT REGEXP_CONTAINS(title, r"^Show HN")
     AND NOT REGEXP_CONTAINS(url, r"(?:github|youtube|twitter)\.com") ),
   -- Filter the good posts so that we can count how many there are
